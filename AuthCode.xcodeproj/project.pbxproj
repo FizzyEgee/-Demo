@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6602958E1DC1D33E00F6473B /* RYTNoticeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6602958D1DC1D33E00F6473B /* RYTNoticeDetailViewController.m */; };
+		660E53741E126A3E006EF706 /* GWAP-i6.png in Resources */ = {isa = PBXBuildFile; fileRef = 660E53711E126A3E006EF706 /* GWAP-i6.png */; };
+		660E53751E126A3E006EF706 /* GWAP-i5.png in Resources */ = {isa = PBXBuildFile; fileRef = 660E53721E126A3E006EF706 /* GWAP-i5.png */; };
+		660E53761E126A3E006EF706 /* GWAP-i6p.png in Resources */ = {isa = PBXBuildFile; fileRef = 660E53731E126A3E006EF706 /* GWAP-i6p.png */; };
+		66311A8A1E80CC7300083994 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 668BDBD61E7A69910089AA00 /* libc++.tbd */; };
+		6658E6E81D74106C008AA052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658E6E71D74106C008AA052 /* main.m */; };
+		6658E6EB1D74106C008AA052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658E6EA1D74106C008AA052 /* AppDelegate.m */; };
+		6658E6EE1D74106C008AA052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658E6ED1D74106C008AA052 /* ViewController.m */; };
+		6658E6F11D74106C008AA052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6658E6EF1D74106C008AA052 /* Main.storyboard */; };
+		6658E6F31D74106C008AA052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6658E6F21D74106C008AA052 /* Assets.xcassets */; };
+		6658E6F61D74106C008AA052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6658E6F41D74106C008AA052 /* LaunchScreen.storyboard */; };
+		6658E6FF1D741310008AA052 /* AuthCodeStringToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658E6FE1D741310008AA052 /* AuthCodeStringToImage.m */; };
+		665B56301DD02E10007C7ED9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B562F1DD02E10007C7ED9 /* Foundation.framework */; };
+		665DD33E1D800E3500B3311D /* RYTApplePayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665DD33D1D800E3500B3311D /* RYTApplePayViewController.m */; };
+		668BDBC91E7A3F7F0089AA00 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A636DC1E7A33DD007DD07E /* libWeChatSDK.a */; };
+		668BDBD11E7A65380089AA00 /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 668BDBCF1E7A64B20089AA00 /* WXApiManager.m */; };
+		668BDBD31E7A669C0089AA00 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 668BDBD21E7A669C0089AA00 /* libsqlite3.tbd */; };
+		668BDBD51E7A67060089AA00 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 668BDBD41E7A67060089AA00 /* libz.tbd */; };
+		66A3F6331DB871E7004C5AAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A3F6321DB871E7004C5AAD /* UIKit.framework */; };
+		66A3F6351DB89EBC004C5AAD /* 德阳银行ApplePay用户服务协议.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66A3F6341DB89EBC004C5AAD /* 德阳银行ApplePay用户服务协议.rtf */; };
+		66A636E21E7A33DD007DD07E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66A636DD1E7A33DD007DD07E /* README.txt */; };
+		66A636E51E7A356C007DD07E /* libWeChatSDK.a in Resources */ = {isa = PBXBuildFile; fileRef = 66A636DC1E7A33DD007DD07E /* libWeChatSDK.a */; };
+		66A636F11E7A3B27007DD07E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A636F01E7A3B27007DD07E /* SystemConfiguration.framework */; };
+		66A636F31E7A3B95007DD07E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A636F21E7A3B95007DD07E /* CFNetwork.framework */; };
+		66A636F51E7A3BA3007DD07E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A636F41E7A3BA3007DD07E /* CoreTelephony.framework */; };
+		66A636F71E7A3BB0007DD07E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A636F61E7A3BB0007DD07E /* Security.framework */; };
+		66DF40271DDAF22C00160455 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DF40261DDAF22C00160455 /* ClassA.m */; };
+		66DF402A1DDAF30A00160455 /* ClassA+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DF40291DDAF30A00160455 /* ClassA+Swizzle.m */; };
+		66DF402D1DDAF61F00160455 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DF402C1DDAF61F00160455 /* ClassB.m */; };
+		66DF40301DDAF6AF00160455 /* ClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DF402F1DDAF6AF00160455 /* ClassC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6602958C1DC1D33E00F6473B /* RYTNoticeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTNoticeDetailViewController.h; sourceTree = "<group>"; };
+		6602958D1DC1D33E00F6473B /* RYTNoticeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTNoticeDetailViewController.m; sourceTree = "<group>"; };
+		660E53711E126A3E006EF706 /* GWAP-i6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GWAP-i6.png"; sourceTree = "<group>"; };
+		660E53721E126A3E006EF706 /* GWAP-i5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GWAP-i5.png"; sourceTree = "<group>"; };
+		660E53731E126A3E006EF706 /* GWAP-i6p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GWAP-i6p.png"; sourceTree = "<group>"; };
+		6658E6E31D74106C008AA052 /* AuthCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6658E6E71D74106C008AA052 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6658E6E91D74106C008AA052 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6658E6EA1D74106C008AA052 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6658E6EC1D74106C008AA052 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6658E6ED1D74106C008AA052 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6658E6F01D74106C008AA052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6658E6F21D74106C008AA052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6658E6F51D74106C008AA052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6658E6F71D74106C008AA052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6658E6FD1D741310008AA052 /* AuthCodeStringToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthCodeStringToImage.h; sourceTree = "<group>"; };
+		6658E6FE1D741310008AA052 /* AuthCodeStringToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthCodeStringToImage.m; sourceTree = "<group>"; };
+		665B562F1DD02E10007C7ED9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		665DD33C1D800E3500B3311D /* RYTApplePayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RYTApplePayViewController.h; path = ../RYTApplePayViewController.h; sourceTree = "<group>"; };
+		665DD33D1D800E3500B3311D /* RYTApplePayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RYTApplePayViewController.m; path = ../RYTApplePayViewController.m; sourceTree = "<group>"; };
+		668BDBCA1E7A41480089AA00 /* WXApiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = ../AuthCode/WXApiObject.h; sourceTree = "<group>"; };
+		668BDBCE1E7A64B20089AA00 /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXApiManager.h; path = ../SDKExport/WXApiManager.h; sourceTree = "<group>"; };
+		668BDBCF1E7A64B20089AA00 /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXApiManager.m; path = ../SDKExport/WXApiManager.m; sourceTree = "<group>"; };
+		668BDBD21E7A669C0089AA00 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		668BDBD41E7A67060089AA00 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		668BDBD61E7A69910089AA00 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		66A3F6321DB871E7004C5AAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66A3F6341DB89EBC004C5AAD /* 德阳银行ApplePay用户服务协议.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "德阳银行ApplePay用户服务协议.rtf"; sourceTree = "<group>"; };
+		66A636DC1E7A33DD007DD07E /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		66A636DD1E7A33DD007DD07E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		66A636DF1E7A33DD007DD07E /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		66A636F01E7A3B27007DD07E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		66A636F21E7A3B95007DD07E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		66A636F41E7A3BA3007DD07E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		66A636F61E7A3BB0007DD07E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		66DF40251DDAF22C00160455 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		66DF40261DDAF22C00160455 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		66DF40281DDAF30A00160455 /* ClassA+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClassA+Swizzle.h"; sourceTree = "<group>"; };
+		66DF40291DDAF30A00160455 /* ClassA+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ClassA+Swizzle.m"; sourceTree = "<group>"; };
+		66DF402B1DDAF61F00160455 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		66DF402C1DDAF61F00160455 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		66DF402E1DDAF6AF00160455 /* ClassC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassC.h; sourceTree = "<group>"; };
+		66DF402F1DDAF6AF00160455 /* ClassC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6658E6E01D74106C008AA052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66311A8A1E80CC7300083994 /* libc++.tbd in Frameworks */,
+				668BDBD51E7A67060089AA00 /* libz.tbd in Frameworks */,
+				668BDBD31E7A669C0089AA00 /* libsqlite3.tbd in Frameworks */,
+				668BDBC91E7A3F7F0089AA00 /* libWeChatSDK.a in Frameworks */,
+				66A636F71E7A3BB0007DD07E /* Security.framework in Frameworks */,
+				66A636F51E7A3BA3007DD07E /* CoreTelephony.framework in Frameworks */,
+				66A636F31E7A3B95007DD07E /* CFNetwork.framework in Frameworks */,
+				66A636F11E7A3B27007DD07E /* SystemConfiguration.framework in Frameworks */,
+				665B56301DD02E10007C7ED9 /* Foundation.framework in Frameworks */,
+				66A3F6331DB871E7004C5AAD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6658E6DA1D74106C008AA052 = {
+			isa = PBXGroup;
+			children = (
+				66A636DB1E7A33DD007DD07E /* SDKExport */,
+				6658E6E51D74106C008AA052 /* AuthCode */,
+				6658E6E41D74106C008AA052 /* Products */,
+				66A3F6311DB871E7004C5AAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6658E6E41D74106C008AA052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6658E6E31D74106C008AA052 /* AuthCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6658E6E51D74106C008AA052 /* AuthCode */ = {
+			isa = PBXGroup;
+			children = (
+				668BDBCE1E7A64B20089AA00 /* WXApiManager.h */,
+				668BDBCF1E7A64B20089AA00 /* WXApiManager.m */,
+				6658E6E91D74106C008AA052 /* AppDelegate.h */,
+				6658E6EA1D74106C008AA052 /* AppDelegate.m */,
+				6658E6EC1D74106C008AA052 /* ViewController.h */,
+				6658E6ED1D74106C008AA052 /* ViewController.m */,
+				665DD33C1D800E3500B3311D /* RYTApplePayViewController.h */,
+				665DD33D1D800E3500B3311D /* RYTApplePayViewController.m */,
+				6602958C1DC1D33E00F6473B /* RYTNoticeDetailViewController.h */,
+				6602958D1DC1D33E00F6473B /* RYTNoticeDetailViewController.m */,
+				66DF40241DDAF1EE00160455 /* runtime */,
+				6658E6EF1D74106C008AA052 /* Main.storyboard */,
+				6658E6F21D74106C008AA052 /* Assets.xcassets */,
+				6658E6F41D74106C008AA052 /* LaunchScreen.storyboard */,
+				6658E6F71D74106C008AA052 /* Info.plist */,
+				6658E6E61D74106C008AA052 /* Supporting Files */,
+				6658E6FD1D741310008AA052 /* AuthCodeStringToImage.h */,
+				6658E6FE1D741310008AA052 /* AuthCodeStringToImage.m */,
+			);
+			path = AuthCode;
+			sourceTree = "<group>";
+		};
+		6658E6E61D74106C008AA052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66A3F6341DB89EBC004C5AAD /* 德阳银行ApplePay用户服务协议.rtf */,
+				660E53711E126A3E006EF706 /* GWAP-i6.png */,
+				660E53721E126A3E006EF706 /* GWAP-i5.png */,
+				660E53731E126A3E006EF706 /* GWAP-i6p.png */,
+				6658E6E71D74106C008AA052 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66A3F6311DB871E7004C5AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				668BDBD61E7A69910089AA00 /* libc++.tbd */,
+				668BDBD41E7A67060089AA00 /* libz.tbd */,
+				668BDBD21E7A669C0089AA00 /* libsqlite3.tbd */,
+				66A636F61E7A3BB0007DD07E /* Security.framework */,
+				66A636F41E7A3BA3007DD07E /* CoreTelephony.framework */,
+				66A636F21E7A3B95007DD07E /* CFNetwork.framework */,
+				66A636F01E7A3B27007DD07E /* SystemConfiguration.framework */,
+				665B562F1DD02E10007C7ED9 /* Foundation.framework */,
+				66A3F6321DB871E7004C5AAD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66A636DB1E7A33DD007DD07E /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				66A636DC1E7A33DD007DD07E /* libWeChatSDK.a */,
+				66A636DF1E7A33DD007DD07E /* WXApi.h */,
+				668BDBCA1E7A41480089AA00 /* WXApiObject.h */,
+				66A636DD1E7A33DD007DD07E /* README.txt */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+		66DF40241DDAF1EE00160455 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				66DF40251DDAF22C00160455 /* ClassA.h */,
+				66DF40261DDAF22C00160455 /* ClassA.m */,
+				66DF40281DDAF30A00160455 /* ClassA+Swizzle.h */,
+				66DF40291DDAF30A00160455 /* ClassA+Swizzle.m */,
+				66DF402B1DDAF61F00160455 /* ClassB.h */,
+				66DF402C1DDAF61F00160455 /* ClassB.m */,
+				66DF402E1DDAF6AF00160455 /* ClassC.h */,
+				66DF402F1DDAF6AF00160455 /* ClassC.m */,
+			);
+			name = runtime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6658E6E21D74106C008AA052 /* AuthCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6658E6FA1D74106C008AA052 /* Build configuration list for PBXNativeTarget "AuthCode" */;
+			buildPhases = (
+				6658E6DF1D74106C008AA052 /* Sources */,
+				6658E6E01D74106C008AA052 /* Frameworks */,
+				6658E6E11D74106C008AA052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthCode;
+			productName = AuthCode;
+			productReference = 6658E6E31D74106C008AA052 /* AuthCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6658E6DB1D74106C008AA052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = quan;
+				TargetAttributes = {
+					6658E6E21D74106C008AA052 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VDETY7539N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6658E6DE1D74106C008AA052 /* Build configuration list for PBXProject "AuthCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6658E6DA1D74106C008AA052;
+			productRefGroup = 6658E6E41D74106C008AA052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6658E6E21D74106C008AA052 /* AuthCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6658E6E11D74106C008AA052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A636E51E7A356C007DD07E /* libWeChatSDK.a in Resources */,
+				6658E6F61D74106C008AA052 /* LaunchScreen.storyboard in Resources */,
+				660E53761E126A3E006EF706 /* GWAP-i6p.png in Resources */,
+				66A3F6351DB89EBC004C5AAD /* 德阳银行ApplePay用户服务协议.rtf in Resources */,
+				660E53751E126A3E006EF706 /* GWAP-i5.png in Resources */,
+				660E53741E126A3E006EF706 /* GWAP-i6.png in Resources */,
+				6658E6F31D74106C008AA052 /* Assets.xcassets in Resources */,
+				66A636E21E7A33DD007DD07E /* README.txt in Resources */,
+				6658E6F11D74106C008AA052 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6658E6DF1D74106C008AA052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668BDBD11E7A65380089AA00 /* WXApiManager.m in Sources */,
+				6658E6FF1D741310008AA052 /* AuthCodeStringToImage.m in Sources */,
+				6658E6EE1D74106C008AA052 /* ViewController.m in Sources */,
+				66DF40301DDAF6AF00160455 /* ClassC.m in Sources */,
+				6658E6EB1D74106C008AA052 /* AppDelegate.m in Sources */,
+				66DF402D1DDAF61F00160455 /* ClassB.m in Sources */,
+				6602958E1DC1D33E00F6473B /* RYTNoticeDetailViewController.m in Sources */,
+				6658E6E81D74106C008AA052 /* main.m in Sources */,
+				66DF402A1DDAF30A00160455 /* ClassA+Swizzle.m in Sources */,
+				66DF40271DDAF22C00160455 /* ClassA.m in Sources */,
+				665DD33E1D800E3500B3311D /* RYTApplePayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6658E6EF1D74106C008AA052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6658E6F01D74106C008AA052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6658E6F41D74106C008AA052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6658E6F51D74106C008AA052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6658E6F81D74106C008AA052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6658E6F91D74106C008AA052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6658E6FB1D74106C008AA052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xin chen (CCJ236FX88)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VDETY7539N;
+				INFOPLIST_FILE = AuthCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AuthCode",
+					"$(PROJECT_DIR)/SDKExport",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.quan.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6658E6FC1D74106C008AA052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xin chen (CCJ236FX88)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VDETY7539N;
+				INFOPLIST_FILE = AuthCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AuthCode",
+					"$(PROJECT_DIR)/SDKExport",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.quan.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6658E6DE1D74106C008AA052 /* Build configuration list for PBXProject "AuthCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6658E6F81D74106C008AA052 /* Debug */,
+				6658E6F91D74106C008AA052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6658E6FA1D74106C008AA052 /* Build configuration list for PBXNativeTarget "AuthCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6658E6FB1D74106C008AA052 /* Debug */,
+				6658E6FC1D74106C008AA052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6658E6DB1D74106C008AA052 /* Project object */;
+}
